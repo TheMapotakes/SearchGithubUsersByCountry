@@ -17,7 +17,7 @@ $(document).ready(function () {
             
         })
     
-    $.get("http://localhost:5500/countries.json", function (data) {
+    $.get("https://themapotakes.github.io/SearchGithubUsersByCountry/countries.json", function (data) {
         console.log(data)
 
         data.forEach(element => {
